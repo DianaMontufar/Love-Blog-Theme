@@ -1,0 +1,62 @@
+h1 {
+  font-family: "beba" !important;
+  margin-top: 5px; }
+
+.navbar-fixed-top {
+  background: white;
+  font-family: "beba" !important; }
+
+.navbar-header h1 {
+  color: #E25E36; }
+
+.navbar-header span {
+  color: #F0B0A4; }
+
+.navbar-nav li a {
+  color: #BFBFBF; }
+
+h2 {
+  font-family: "beba" !important; }
+
+.footer_costados {
+  background: #F1AE9D;
+  height: 100px; }
+
+footer {
+  background-color: #F1AE9D;
+  color: white; }
+  footer .container {
+    width: 90%;
+    border-left: 15px white solid;
+    border-right: 15px white solid;
+    padding-bottom: 50px;
+    background: #E7663C; }
+
+.header_costados {
+  background: #F1AE9D;
+  height: 140px; }
+
+.section-home {
+  margin-top: -74px; }
+  .section-home img:first-child {
+    border-left: 15px white solid;
+    border-right: 15px white solid; }
+  .section-home .row img {
+    margin-top: 20px; }
+  .section-home .row h2 {
+    font-size: 18px; }
+  .section-home .row .subtextos {
+    margin-left: 15px;
+    margin-right: 15px; }
+  .section-home .row span {
+    background: #E7663E;
+    border-radius: 0;
+    padding: 3%;
+    font-size: 16px;
+    font-family: "beba" !important; }
+
+@font-face {
+  font-family: "beba";
+  src: url(../font/BEBAS___.ttf) format("truetype"); }
+
+/*# sourceMappingURL=main.css.map */

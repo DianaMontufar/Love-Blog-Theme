@@ -1,0 +1,18 @@
+h2{
+	font-family:"beba" !important;
+}
+.footer_costados{
+	@include lados_secciones(#F1AE9D, 100px);
+}
+footer{
+	background-color: #F1AE9D;
+	color:white;
+	.container{
+		width: 90%;
+		border-left:15px white solid;
+		border-right:15px white solid;
+		padding-bottom: 50px;
+		background: #E7663C;
+	}
+}
+
