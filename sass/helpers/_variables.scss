@@ -1,1 +1,17 @@
+
 $font_beba: "beba"!important;
+
+$margin_top: -74px;
+
+h1,h2,h3,h5{
+	font-family:$font_beba;
+	color:#E7663C;
+}
+
+a{
+	font-family:$font_beba;
+}
+p,ul{
+	font-size:16px;
+	font-family:"helvetica";
+}

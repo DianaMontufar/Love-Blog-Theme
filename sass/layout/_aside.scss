@@ -1,0 +1,22 @@
+.aside{
+
+	.img-gallery{
+		display: inline-block;
+		margin-bottom:5px;
+	}
+
+	img{
+		border: 1px #C6715D solid;
+	}
+
+	ul{
+		padding-left: 0;
+	}
+}
+.bg-img-text{
+	background:url("../images/heading-bg.png");
+	h5{
+		width: 110px;
+		background:white;
+	}
+}

@@ -1,3 +1,14 @@
+h1, h2, h3, h5 {
+  font-family: "beba" !important;
+  color: #E7663C; }
+
+a {
+  font-family: "beba" !important; }
+
+p, ul {
+  font-size: 16px;
+  font-family: "helvetica"; }
+
 h1 {
   font-family: "beba" !important;
   margin-top: 5px; }
@@ -13,10 +24,12 @@ h1 {
   color: #F0B0A4; }
 
 .navbar-nav li a {
-  color: #BFBFBF; }
+  color: #BFBFBF;
+  font-size: 20px; }
 
-h2 {
-  font-family: "beba" !important; }
+.navbar-nav li a:hover {
+  color: #EC643A;
+  background: none; }
 
 .footer_costados {
   background: #F1AE9D;
@@ -26,15 +39,40 @@ footer {
   background-color: #F1AE9D;
   color: white; }
   footer .container {
-    width: 90%;
     border-left: 15px white solid;
     border-right: 15px white solid;
     padding-bottom: 50px;
     background: #E7663C; }
+  footer h2 {
+    color: white; }
 
 .header_costados {
   background: #F1AE9D;
   height: 140px; }
+
+.aside .img-gallery {
+  display: inline-block;
+  margin-bottom: 5px; }
+.aside img {
+  border: 1px #C6715D solid; }
+.aside ul {
+  padding-left: 0; }
+
+.bg-img-text {
+  background: url("../images/heading-bg.png"); }
+  .bg-img-text h5 {
+    width: 110px;
+    background: white; }
+
+.franja_head {
+  margin-top: -74px; }
+  .franja_head h1 {
+    color: white; }
+  .franja_head .container {
+    background-color: #E7663C;
+    height: 74px;
+    border-left: 15px white solid;
+    border-right: 15px white solid; }
 
 .section-home {
   margin-top: -74px; }
@@ -55,8 +93,98 @@ footer {
     font-size: 16px;
     font-family: "beba" !important; }
 
+.blog_post_meta {
+  border-left: 1px #DCDCDC solid;
+  border-right: 1px #DCDCDC solid;
+  border-bottom: 1px #DCDCDC solid; }
+
+.about .col-md-4 img {
+  border: 3px double grey; }
+.about blockquote {
+  border-left: 10px #E8653E solid;
+  color: #E8653E;
+  margin-left: 25px; }
+
+.blog {
+  padding-top: 40px; }
+
+.nav-inferior {
+  font-family: "beba" !important;
+  padding: 2%; }
+  .nav-inferior .navbar-brand {
+    color: black;
+    font-size: 25px; }
+  .nav-inferior .navbar-default {
+    background-color: white; }
+    .nav-inferior .navbar-default .active a {
+      background-color: #E7663C;
+      color: white; }
+    .nav-inferior .navbar-default .active a:hover {
+      color: #777777;
+      background-color: white; }
+  .nav-inferior ul.navbar-nav a {
+    color: #BFBFBF; }
+  .nav-inferior ul.navbar-nav a:hover {
+    background-color: #EC643A;
+    color: white; }
+
+.contact {
+  padding-top: 20px;
+  padding-bottom: 30px; }
+  .contact .col-md-9 img {
+    padding-bottom: 30px; }
+  .contact .col-md-9 p:nth-child(4) {
+    color: #E7663C; }
+
+form button {
+  width: 100%; }
+  form button.btn-primary {
+    color: white;
+    background-color: #E7663C;
+    border: none;
+    font-family: "beba" !important;
+    font-size: 30px; }
+form .form-group input {
+  width: 60%;
+  height: 45px;
+  border: 1px solid #C6715D; }
+  form .form-group input#form-input::-webkit-input-placeholder {
+    font-family: "beba" !important;
+    color: #E7663C; }
+  form .form-group input#form-input:-moz-placeholder {
+    /* Firefox 18- */
+    font-family: "beba" !important;
+    color: #E7663C; }
+  form .form-group input#form-input::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: "beba" !important;
+    color: #E7663C; }
+  form .form-group input#form-input:-ms-input-placeholder {
+    font-family: "beba" !important;
+    color: #E7663C; }
+form textarea.form-control {
+  height: 250px;
+  border: 1px solid #C6715D; }
+form textarea#form-input::-webkit-input-placeholder {
+  font-family: "beba" !important;
+  color: #E7663C; }
+form textarea#form-input:-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "beba" !important;
+  color: #E7663C; }
+form textarea#form-input::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "beba" !important;
+  color: #E7663C; }
+form textarea#form-input:-ms-input-placeholder {
+  font-family: "beba" !important;
+  color: #E7663C; }
+
 @font-face {
   font-family: "beba";
   src: url(../font/BEBAS___.ttf) format("truetype"); }
+@font-face {
+  font-family: "helvetica";
+  src: url(../font/HelveticaNeue.ttf) format("truetype"); }
 
 /*# sourceMappingURL=main.css.map */

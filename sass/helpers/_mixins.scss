@@ -3,3 +3,25 @@
 	background: $bg;
 	height: $height;
 }
+
+@mixin placeholder (){
+	&#form-input::-webkit-input-placeholder {
+	   	font-family:$font_beba;
+	   	color:#E7663C;
+	}
+
+	&#form-input:-moz-placeholder { /* Firefox 18- */
+	   	font-family:$font_beba;
+		color:#E7663C; 
+	}
+
+	&#form-input::-moz-placeholder {  /* Firefox 19+ */
+	   font-family:$font_beba;
+		color:#E7663C;  
+	}
+
+	&#form-input:-ms-input-placeholder {  
+	   font-family:$font_beba;
+		color:#E7663C;  
+	}
+}

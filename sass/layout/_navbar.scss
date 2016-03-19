@@ -15,12 +15,11 @@ h1{
 }
 .navbar-nav li a{
 	color:#BFBFBF;
-}
+	font-size:20px;
 
-// .ei-slider-large img{
-// 	position:relative;
-// 	left:65px;
-// 	top:-70px;
-// 	border-right:15px white solid;
-// 	border-left:15px white solid;
-// }
+}
+.navbar-nav li a:hover{
+	color:#EC643A;
+	background:none;
+
+}

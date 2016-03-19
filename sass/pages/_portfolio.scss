@@ -1,0 +1,39 @@
+
+.nav-inferior{
+	font-family:$font_beba;
+	padding:2%;
+	
+	.navbar-brand{
+		color: black;
+		font-size: 25px;
+	}
+	.navbar-default{
+		background-color:white;
+		.active {
+		 	a{
+				background-color:#E7663C;
+				color: white;
+			}
+			a:hover{
+				color: #777777;
+				background-color:white;
+			}
+		}
+	}
+	ul{
+
+		&.navbar-nav{
+			a{
+				color: #BFBFBF;
+			}
+			a:hover{
+				background-color:#EC643A;
+				color: white;
+			}
+
+		}
+
+	}
+	
+}
+

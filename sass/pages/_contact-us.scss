@@ -1,0 +1,48 @@
+.contact{
+	padding-top:20px;
+	padding-bottom:30px;
+	.col-md-9{
+		img{
+			padding-bottom:30px;
+		}
+		p:nth-child(4){
+			color: #E7663C;
+		}
+	}		
+}
+form {
+	
+	button{
+			width: 100%;
+
+			&.btn-primary{
+				color: white;
+				background-color:#E7663C;
+				border: none;
+				font-family: $font_beba;
+				font-size:30px;
+			}	 
+		}
+
+	.form-group{
+
+		input{
+			width: 60%;
+			height: 45px;
+			border: 1px solid #C6715D; 
+
+		@include placeholder();
+		
+		}
+		
+	}
+
+	textarea{
+
+		&.form-control{
+			height: 250px;
+			border: 1px solid #C6715D;
+		}
+		@include placeholder();
+	}
+}

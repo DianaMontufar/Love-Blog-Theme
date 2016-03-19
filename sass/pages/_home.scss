@@ -1,6 +1,6 @@
 
 .section-home{
-	margin-top: -74px;
+	margin-top: $margin-top;
 
 		img:first-child{
 			border-left: 15px white solid;
@@ -25,7 +25,11 @@
 				font-family: $font_beba;
 			}
 		}
-		
 }
 
+.blog_post_meta{
+			border-left:1px #DCDCDC solid;
+			border-right:1px #DCDCDC solid;
+			border-bottom:1px #DCDCDC solid;
+		}
 	
